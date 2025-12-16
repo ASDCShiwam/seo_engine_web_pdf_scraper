@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+lxml
+readability-lxml
+elasticsearch
+fastapi
+uvicorn[standard]
+loguru
+aiohttp

@@ -1,0 +1,75 @@
+##################################
+# Python
+##################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+##################################
+# Virtual Environments
+##################################
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+##################################
+# Environment & Config
+##################################
+*.env
+.env
+*.log
+
+##################################
+# Django
+##################################
+*.sqlite3
+db.sqlite3
+/static
+/media
+staticfiles/
+admin/
+
+# Django migrations (ignore all except init and specific ones)
+**/migrations/*
+!**/migrations/__init__.py
+!crawler/migrations/*.py
+
+##################################
+# Jupyter
+##################################
+.ipynb_checkpoints/
+
+##################################
+# Testing & Coverage
+##################################
+.coverage
+*.cover
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+##################################
+# Build / Distribution
+##################################
+build/
+dist/
+*.egg-info/
+
+##################################
+# IDEs & Editors
+##################################
+.vscode/
+.idea/
+
+##################################
+# OS Files
+##################################
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
